@@ -22,8 +22,8 @@ def index():
       mysql.connection.commit()
       cur.close()
       return redirect('/users')
-    retrun render_template('index.html')
-   return render_template('index.html')
+   retrun render_template('index.html')
+   
    if name == ' main ':
       app.run(debug=True)
 
